@@ -1,3 +1,6 @@
+## [2.0.2+1]
+ * Null safety
+
 ## 1.0.2 (20201001)
 
 * Add getNameFromNumber to get the carrier name for a phone number (carrier java dep 1.136)
