@@ -1,6 +1,6 @@
 name: libphonenumber_example
 description: Demonstrates how to use the libphonenumber plugin.
-
+publish_to: none
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
 # followed by an optional build number separated by a +.
@@ -9,9 +9,17 @@ description: Demonstrates how to use the libphonenumber plugin.
 # Read more about versioning at semver.org.
 version: 1.0.0+1
 
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
 dependencies:
   flutter:
     sdk: flutter
+  flutter_test:
+    sdk: flutter
+
+  libphonenumber2:
+    path: ../
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -21,8 +29,6 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  libphonenumber:
-    path: ../
 
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec

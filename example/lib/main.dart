@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:flutter/services.dart';
-import 'package:libphonenumber/libphonenumber.dart';
+import 'package:libphonenumber2/libphonenumber2.dart';
 
 void main() => runApp(new MyApp());
 
@@ -14,7 +14,7 @@ class _MyAppState extends State<MyApp> {
   final TextEditingController _textController = TextEditingController();
   bool _isValid = false;
   String _normalized = '';
-  RegionInfo _regionInfo;
+  RegionInfo? _regionInfo;
   String _carrierName = '';
 
   @override
@@ -111,7 +111,7 @@ class _MyAppState extends State<MyApp> {
             Padding(
               padding: EdgeInsets.only(left: 12.0),
               child: Text(
-                'Carrier Name=${_carrierName}',
+                'Carrier Name=$_carrierName',
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
             ),
