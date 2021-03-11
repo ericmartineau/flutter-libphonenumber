@@ -15,8 +15,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_test:
-    sdk: flutter
 
   libphonenumber2:
     path: ../

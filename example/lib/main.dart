@@ -23,7 +23,7 @@ class _MyAppState extends State<MyApp> {
     super.dispose();
   }
 
-  _showDetails() async {
+  Future _showDetails() async {
     var s = _textController.text;
 
     bool isValid =
