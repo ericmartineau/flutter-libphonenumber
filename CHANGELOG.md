@@ -1,3 +1,7 @@
+## [2.0.2+2]
+ * Adding example podfile
+update podspec
+
 ## [2.0.2+1]
  * Null safety
 

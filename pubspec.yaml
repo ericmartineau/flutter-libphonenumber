@@ -1,16 +1,16 @@
 name: libphonenumber2
-version: 2.0.2+1
+version: 2.0.2+2
 homepage: https://github.com/emostar/flutter-libphonenumber
 description: This is a Flutter implementation of libphonenumber. It includes only a few features at the moment, and are added when more functionality is desired.
 environment: 
   sdk: '>=2.12.0 <3.0.0'
   flutter: ^1.10.0
 dependencies: 
-  flutter:
+  flutter: 
     sdk: flutter
-dev_dependencies:
+dev_dependencies: 
   pedantic: ^1.11.0
-flutter:
+flutter: 
   plugin: 
     platforms: 
       android: 
